@@ -21,7 +21,7 @@ public class Item {
   private Long id;
 
   @Column(nullable = false, length = 50)
-  private String itemNum;
+  private String itemNm;
 
   @Column(name = "price", nullable = false)
   private int price;
